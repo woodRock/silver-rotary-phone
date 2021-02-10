@@ -12,16 +12,16 @@
 
 ## Competition
 
-1. Build an app using your favourite language/tool/framework.
-2. Use any AWS Amplify free-tier tool or service in your application.
-3. Write an article about your app on your HashNode blog.
-4. Add #AmplifyHashnode hashtag to your article
-5. Share your article on social media and tag @Hashnode and @AWSAmplify
+- [ ] Build an app using your favourite language/tool/framework.
+- [ ] Use any AWS Amplify free-tier tool or service in your application.
+- [ ] Write an article about your app on your HashNode blog.
+- [ ] Add #AmplifyHashnode hashtag to your article
+- [ ] Share your article on social media and tag @Hashnode and @AWSAmplify
 
 ## Evaluation Criteria
 
-1. **Product Thinking:** Usefulness of the project be in a real-world scenario.
-2. **UI/UX:** The overall look, layout, colour usage, and positioning of the application.
-3. **Code:** Quality (clean code, proper naming conventions, linter usage) of code, and use of best practises.
-4. **Completeness of the article:** The blog should cover all aspects of your project. What inspired you to create this project, the problem the project is targeting, and how you made it.
-5. **Comprehensibility:** Try to avoid intricate language jargon in your blog. Use simple language to convey your thoughts.
+- [ ] **Product Thinking:** Usefulness of the project be in a real-world scenario.
+- [ ] **UI/UX:** The overall look, layout, colour usage, and positioning of the application.
+- [ ] **Code:** Quality (clean code, proper naming conventions, linter usage) of code, and use of best practises.
+- [ ] **Completeness of the article:** The blog should cover all aspects of your project. What inspired you to create this project, the problem the project is targeting, and how you made it.
+- [ ] **Comprehensibility:** Try to avoid intricate language jargon in your blog. Use simple language to convey your thoughts.
