@@ -2,7 +2,7 @@
 
 ## Idea
 
-- [Breif](https://github.com/woodRock/silver-rotary-phone/blob/main/idea.md)
+- [Brief](https://github.com/woodRock/silver-rotary-phone/blob/main/idea.md)
 
 ## Hackathon
 
