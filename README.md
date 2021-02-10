@@ -1,5 +1,11 @@
 # AWS Amplify [Hackathon](https://townhall.hashnode.com/announcing-aws-amplify-hackathon-on-hashnode)
 
+## Idea
+
+- [Breif](https://github.com/woodRock/silver-rotary-phone/blob/main/idea.md)
+
+## Hackathon
+
 - From February 8th to February 28th (3 Weeks) there is an AWS Amplify Hackathon.
 - AWS Amplify is a set of tools that you can use together to build scalable full-stack applications powered by AWS. With amplify, you can configure backends, connect yout app, deploy static web apps, and easily manage content outside the AWS console.
 - Amplify supports popular framewors includeing JavaScript, React, Angular, Vue, Next.js, and mobile platforms including Andriod, iOS, React Native, Ionic and Flutter.
