@@ -18,6 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: Install and Build 🔧
+        run:
           npm install
           npm run-script build
         env:
