@@ -1,5 +1,7 @@
 # AWS Amplify [Hackathon](https://townhall.hashnode.com/announcing-aws-amplify-hackathon-on-hashnode)
 
+![CodeQL](https://github.com/woodRock/silver-rotary-phone/workflows/CodeQL/badge.svg)
+
 ## Idea
 
 - [Brief](https://github.com/woodRock/silver-rotary-phone/blob/main/idea.md)
