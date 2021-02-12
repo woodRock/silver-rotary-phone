@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Track</h1>
         <p>
-          A smart tool to keep track of your personal fitness.
+          A tool to keep track of your personal fitness.
         </p>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
