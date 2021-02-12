@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "track73a4aa2c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

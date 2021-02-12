@@ -1,0 +1,28 @@
+# AWS Amplify Hackathon
+
+## Day 1 
+
+
+## Amplify
+
+Install  the AWS Amplify client on my Linux machine.
+
+```bash
+npm install -g @aws-amplify/cli
+```
+
+```bash
+amplify init
+```
+
+- Install Amplify with [tutorial](https://docs.amplify.aws/cli/start/install)
+
+## React
+
+Created a React application using the `create-react-app` command line utility.
+
+```bash
+npx create-react-app my-app
+```
+
+- Install react with [tutorial](https://create-react-app.dev/)
