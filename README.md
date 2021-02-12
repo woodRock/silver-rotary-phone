@@ -2,6 +2,7 @@
 
 ![Deploy](https://github.com/woodRock/silver-rotary-phone/workflows/Deploy/badge.svg)
 ![CodeQL](https://github.com/woodRock/silver-rotary-phone/workflows/CodeQL/badge.svg)
+![Lint](https://github.com/woodRock/silver-rotary-phone/workflows/Lint/badge.svg)
 
 ## Idea
 
