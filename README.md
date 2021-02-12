@@ -4,6 +4,7 @@
 
 - [Brief](https://github.com/woodRock/silver-rotary-phone/blob/main/idea.md)
 - [Blog](https://github.com/woodRock/silver-rotary-phone/tree/dev/blog)
+- [Application](https://main.d3rwfn08hdk6tn.amplifyapp.com)
 
 ## Hackathon
 
