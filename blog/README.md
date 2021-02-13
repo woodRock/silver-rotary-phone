@@ -165,3 +165,21 @@ jobs:
       - name: Run Linters 🔥
         run: npm run lint
 ```
+
+## Day 2
+
+We have made two changes to the workflow files.
+
+```yml
+on:
+  push:
+    branches: [ dev ]
+    paths:
+      - src/**
+      - public/**
+      - package.json
+```
+
+We use `/**` as opposed to `/*` to perform a recursive search for file changes to these directories. Before we were just checking at the parent level.
+
+Secondly, we supply some additional paths. The `public` and `package.json`. If there were changes to these files and directories the production build would change. So we want to perform all the workflows that we need for changes to the production branch.
