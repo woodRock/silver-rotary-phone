@@ -227,3 +227,5 @@ const SignIn = () => {
 
 export default SignIn;
 ```
+
+Now we have our first page done. We have implemented the basics of our Authentication using AWS Amplify. We will return to flesh out the full authentication system later. But onto the basic functionality of the application.
