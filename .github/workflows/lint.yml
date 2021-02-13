@@ -5,7 +5,9 @@ on:
     branches:
       - dev
     paths:
-      - src/*
+      - src/**
+      - public/**
+      - package.json
 jobs:
   run-linters:
     runs-on: ubuntu-latest
