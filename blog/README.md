@@ -168,12 +168,14 @@ jobs:
 
 ## Day 2
 
+## Workflow
+
 We have made two changes to the workflow files.
 
 ```yml
 on:
   push:
-    branches: [ dev ]
+    branches: [dev]
     paths:
       - src/**
       - public/**
@@ -183,3 +185,45 @@ on:
 We use `/**` as opposed to `/*` to perform a recursive search for file changes to these directories. Before we were just checking at the parent level.
 
 Secondly, we supply some additional paths. The `public` and `package.json`. If there were changes to these files and directories the production build would change. So we want to perform all the workflows that we need for changes to the production branch.
+
+## Authentication
+
+We need to install the following packages locally.
+
+```bash
+npm i aws-amplify aws-amplify-react
+```
+
+Made an `auth.js` script within the `api` directory. This configures our Amplify.
+
+```js
+import Amplify from "aws-amplify";
+import aws_exports from "./../aws-exports";
+
+Amplify.configure(aws_exports);
+```
+
+Import this into `App.js`. So that our Amplify is configured, and its implementation details are hidden
+
+```js
+import "./api/auth.js";
+```
+
+We create our first page `SignIn.hs` in the pages directory `pages`. This page imports the `Authenticator` component from the `aws-amplify-react` package that we just installed.
+
+```js
+import React from "react";
+import { Authenticator } from "aws-amplify-react";
+
+const SignIn = () => {
+  return (
+    <>
+      <Authenticator>
+        <h1>Sign In Works!</h1>
+      </Authenticator>
+    </>
+  );
+};
+
+export default SignIn;
+```

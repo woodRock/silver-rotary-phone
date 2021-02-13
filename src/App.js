@@ -1,29 +1,7 @@
-import logo from "./logo.svg";
+import SignIn from "./pages/SignIn";
 import "./App.css";
+import "./api/auth.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Track</h1>
-        <p>
-          A tool to keep track of your personal fitness.
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I have again edited <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => <SignIn />;
 
 export default App;
