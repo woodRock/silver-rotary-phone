@@ -1,7 +1,7 @@
-import SignIn from "./pages/SignIn";
+import Runs from "./pages/SignIn";
 import "./App.css";
 import "./api/auth.js";
 
-const App = () => <SignIn />;
+const App = () => <Runs />;
 
 export default App;

@@ -1,14 +1,14 @@
 import React from "react";
-import { Authenticator } from "aws-amplify-react";
+import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 
-const SignIn = () => {
+const Runs = () => {
   return (
     <>
-      <Authenticator>
-        <h1>Sign In Works!</h1>
-      </Authenticator>
+      <h1>Runs</h1>
+      <hr />
+      <AmplifySignOut />
     </>
   );
 };
 
-export default SignIn;
+export default withAuthenticator(Runs);
