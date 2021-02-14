@@ -239,3 +239,7 @@ We fixed the lack of CSS styling, by using `@aws-amplify/ui-react` rather than `
 ## Public
 
 Updates the title for the application and used a favorite icon with creative commons licensing.
+
+## Runs
+
+Created `Runs` page and `Histogram` component. This uses `d3` to draw a histogram using `svg`. This will be used to display the frequency and length of each run the user has done.

@@ -18,9 +18,10 @@ const Runs = () => {
 };
 
 const state = {
-  h: 300,
-  w: 500,
+  height: 200,
+  width: 500,
   data: [12, 5, 6, 6, 9, 10],
+  id: "root",
 };
 
 export default withAuthenticator(Runs);

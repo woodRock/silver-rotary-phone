@@ -3,16 +3,17 @@ import * as d3 from "d3";
 
 class Histogram extends React.Component {
   componentDidMount() {
-    this.drawChart(this.props);
+    this.drawChart();
   }
 
-  drawChart({ data, h, w }) {
+  drawChart() {
+    const data = this.props.data;
     const svg = d3
       .select("body")
       .append("svg")
-      .attr("width", w)
-      .attr("height", h)
-      .style("margin-left", 100);
+      .attr("width", this.props.width)
+      .attr("height", this.props.height);
+    const h = this.props.height;
     svg
       .selectAll("rect")
       .data(data)
@@ -23,10 +24,19 @@ class Histogram extends React.Component {
       .attr("width", 65)
       .attr("height", (d, i) => d * 10)
       .attr("fill", "green");
+    svg
+      .selectAll("text")
+      .data(data)
+      .enter()
+      .append("text")
+      .text((d) => d + " km")
+      .attr("x", (d, i) => i * 70)
+      .attr("y", (d, i) => h - 10 * d - 3);
+    //selection.attr("property", (d, i) => {})
   }
 
   render() {
-    return <div id={"#" + this.props.id}> </div>;
+    return <div id={"#" + this.props.id}></div>;
   }
 }
 
