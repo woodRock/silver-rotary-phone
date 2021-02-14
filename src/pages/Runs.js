@@ -8,11 +8,9 @@ const Runs = () => {
       <h1>Runs</h1>
       <hr />
       <Histogram {...state} />
-      <div
+      <AmplifySignOut
         style={{ position: "absolute", top: 0, right: "5rem", width: "5rem" }}
-      >
-        <AmplifySignOut />
-      </div>
+      />
     </>
   );
 };

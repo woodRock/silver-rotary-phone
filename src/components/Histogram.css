@@ -1,0 +1,6 @@
+svg {
+  /* Temporary, position historgram at the center of the page */
+  position: absolute;
+  left: 30%;
+  right: 30%;
+}
