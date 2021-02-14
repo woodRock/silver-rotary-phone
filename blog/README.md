@@ -1,6 +1,6 @@
 # AWS Amplify Hackathon
 
-## Day 1
+# Day 1
 
 In the first day we get the App up and running. Deployed to GitHub, using workflows to manage a production and development branch. We deploy our app to AWS using the `amplify` command line utility. No web development was completed today, but we see our template react application has been deployed to the URL [here](https://main.d3rwfn08hdk6tn.amplifyapp.com).
 
@@ -166,7 +166,7 @@ jobs:
         run: npm run lint
 ```
 
-## Day 2
+# Day 2
 
 ## Workflow
 
@@ -229,3 +229,13 @@ export default SignIn;
 ```
 
 Now we have our first page done. We have implemented the basics of our Authentication using AWS Amplify. We will return to flesh out the full authentication system later. But onto the basic functionality of the application.
+
+# Day 3
+
+## CSS
+
+We fixed the lack of CSS styling, by using `@aws-amplify/ui-react` rather than `aws-amplify-react`. This package encapsulates the CSS styling for its components, without having to seperately import them.
+
+## Public
+
+Updates the title for the application and used a favorite icon with creative commons licensing.
