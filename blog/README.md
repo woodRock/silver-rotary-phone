@@ -243,3 +243,40 @@ Updates the title for the application and used a favorite icon with creative com
 ## Runs
 
 Created `Runs` page and `Histogram` component. This uses `d3` to draw a histogram using `svg`. This will be used to display the frequency and length of each run the user has done.
+
+# Day 4
+
+## Datastore
+
+Install and add DataStore to our project.
+
+```bash
+npx amplify-app
+npm i @aws-amplify/datastore
+amplify add api
+amplify add storage
+```
+
+We add this to our schemas in `amplify/backend/api/track`.
+
+```graphql
+type Runs @model {
+  id: ID!
+  name: String!
+  runs: [Run] @connection(keyName: "byRun", fields: ["id"])
+}
+
+type Run @model @key(name: "byRun", fields: ["runsID"]) {
+  id: ID!
+  runsID: ID!
+  date: String!
+}
+```
+
+Then we can use code generators to write our GraphQL queries in JavaScript. This creates a folder in our `src` called `graphql`, which contains all the possible GraphQL queries we made need.
+
+```bash
+npm run amplify-modelgen
+amplify codegen models
+amplify push
+```

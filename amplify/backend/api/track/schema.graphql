@@ -1,0 +1,11 @@
+type Runs @model {
+  id: ID!
+  name: String!
+  runs: [Run] @connection(keyName: "byRun", fields: ["id"])
+}
+
+type Run @model @key(name: "byRun", fields: ["runsID"]) {
+  id: ID!
+  runsID: ID!
+  date: String!
+}
